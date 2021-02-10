@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "ArchitectsDaughter-Regular";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/ArchitectsDaughter-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+html {
+    font-family: "ArchitectsDaughter-Regular", sans-serif;
+    color: #795548;
+    background-color: #D4E4F7;
+    text-size-adjust: none;
+}
+
+body {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+#main {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 600px;
+  max-width: 80%;
+}
+
+/*#main {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 3.5rem;
+}
+*/
+/*#reload {
+  text-align: center;
+}
+
+#reload:img {
+  border: 0;
+}
+*/
+a {
+    text-decoration: none;
+}
+
+a:active,
+a:link, 
+a:visited {
+    color: #795548;
+}
+
+a:hover {
+    color: #4d7094;
+}
